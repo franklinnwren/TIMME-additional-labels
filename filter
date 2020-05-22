@@ -3,7 +3,7 @@
 grep ': {' simplified_user_info.json | tr -d ':{\r\t ' > twitter_id.csv
 grep '"description"' simplified_user_info.json  | tr -d '\r' > description.csv
 paste -d, twitter_id.csv description.csv > matched.csv
-grep 'republican' matched.csv > republican.csv
+grep 'republican' matched.csv > republican_more.csv
 grep 'Republican' matched.csv > Republican.csv
-grep 'democrat' matched.csv > democrat.csv
+grep 'democrat' matched.csv > democrat_more.csv
 grep 'Democrat' matched.csv > Democrat.csv

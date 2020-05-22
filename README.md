@@ -8,6 +8,6 @@ For example:
 
 "description": "I hate republicans" is not a republican
 
-even though both contains the keywords
+even though both contain the keywords
 
-The final labels after the manual adjustment is in new_dict.csv
+The final labels after the manual adjustment are in new_dict.csv

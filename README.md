@@ -1,3 +1,5 @@
+# TIMME-additional-labels
+
 The shell script "filter" filters out possible democratic and republican users based on keywords in their self-reported "descriptions".
 
 However, in order to achieve a higher reliability of our labels, we manually adjust the labels of users which are disapproving or sarcastic.
